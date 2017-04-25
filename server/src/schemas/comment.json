@@ -5,7 +5,7 @@
   "properties": {
     "author": {
       "id": "author",
-      "type": "integer"
+      "type": "string"
     },
     "contents": {
       "id": "contents",

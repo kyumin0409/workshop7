@@ -99,8 +99,8 @@ export default class StatusUpdate extends React.Component {
             <div className={"dropdown"}>
               <span className="caret pull-right dropdown-toggle" data-toggle="dropdown"></span>
               <ul className="dropdown-menu">
-                <li className={hideElement(this.props.author._id !== 4)}><a onClick={(e) => this.onEditClick(e)}>Edit Status Update</a></li>
-                <li className={hideElement(this.props.author._id !== 4)}><a onClick={(e) => this.onDelete(e)}>Delete Status Update</a></li>
+                <li className={hideElement(this.props.author._id !== "000000000000000000000004")}><a onClick={(e) => this.onEditClick(e)}>Edit Status Update</a></li>
+                <li className={hideElement(this.props.author._id !== "000000000000000000000004")}><a onClick={(e) => this.onDelete(e)}>Delete Status Update</a></li>
                 <li><a href="#">Hide Post</a></li>
               </ul>
             </div>

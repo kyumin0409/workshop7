@@ -27,7 +27,7 @@ export default class Feed extends React.Component {
     // Send to server.
     // We could use geolocation to get a location, but let's fix it to Amherst
     // for now.
-    postStatusUpdate(4, "Amherst, MA", postContents, image, () => {
+    postStatusUpdate("000000000000000000000004", "Amherst, MA", postContents, image, () => {
       // Database is now updated. Refresh the feed.
       this.refresh();
     });
